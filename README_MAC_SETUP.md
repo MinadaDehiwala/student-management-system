@@ -1,4 +1,4 @@
-# Private Campus App - macOS Setup
+# Student Management System - macOS Setup
 
 ## Prerequisites
 - Homebrew
@@ -6,7 +6,7 @@
 - MySQL via Homebrew (`mysql --version`)
 
 ## Quick Start (Recommended)
-From the `campus-app` folder:
+From the project folder:
 ```bash
 chmod +x scripts/*.sh
 ./scripts/dev_up.sh

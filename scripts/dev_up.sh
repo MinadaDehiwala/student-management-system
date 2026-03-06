@@ -42,6 +42,6 @@ echo "[4/4] Verifying app DB connection..."
 mysql -h 127.0.0.1 -u campus_user -p'Ga$9vL!2QxR#8tPm' -D campus_db -e "SELECT COUNT(*) AS students FROM students;"
 
 echo ""
-echo "Campus app is starting on http://localhost:8000"
+echo "Student Management System is starting on http://localhost:8000"
 echo "Login page: http://localhost:8000/login.php"
 exec php -S localhost:8000

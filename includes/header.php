@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/auth.php';
 
-$pageTitle = $pageTitle ?? 'Private Campus Student Management';
+$pageTitle = $pageTitle ?? 'Student Management System';
 $showNav = $showNav ?? false;
 $flash = get_flash();
 $currentPath = basename((string) (parse_url((string) ($_SERVER['REQUEST_URI'] ?? ''), PHP_URL_PATH) ?? ''));
@@ -34,9 +34,9 @@ $navItems = [
 
 <header class="site-header">
     <div class="container header-inner">
-        <a class="brand" href="dashboard.php" aria-label="Private Campus home">
-            <span>Private Campus</span>
-            <small>Student Intelligence Portal</small>
+        <a class="brand" href="dashboard.php" aria-label="Student Management System home">
+            <span>Student Management System</span>
+            <small>Admin Intelligence Portal</small>
         </a>
 
         <?php if ($showNav && is_logged_in()): ?>

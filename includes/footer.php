@@ -2,7 +2,7 @@
 
 <footer class="site-footer">
     <div class="container footer-inner">
-        <p>&copy; <?= date('Y') ?> Private Campus Student Management</p>
+        <p>&copy; <?= date('Y') ?> Student Management System</p>
         <p class="muted">Built with PHP 8 + MySQL for secure campus administration.</p>
     </div>
 </footer>

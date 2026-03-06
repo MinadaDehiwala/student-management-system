@@ -1,4 +1,4 @@
-# Private Campus App - WAMP Setup
+# Student Management System - WAMP Setup
 
 ## 1) Copy project into WAMP web root
 Copy `campus-app` to:
