@@ -95,8 +95,6 @@ Main URL:
 - Prepared statements used for DB operations
 - Session-based access control for admin pages
 
-## Screenshots (Optional)
-Add your screenshots under an `assets/screenshots/` folder and link them here.
 
 ## License
-This project is for educational and internal use. Add a license file if you plan public reuse.
+This project is for educational purposes.
